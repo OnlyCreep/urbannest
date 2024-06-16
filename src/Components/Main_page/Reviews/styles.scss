@@ -1,0 +1,201 @@
+.reviews {
+    margin-top: 8vw;
+}
+
+.reviews-string_title {
+    width: 100%;
+    height: var(--heightElem);
+    background-color: #3D3D3D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews-string_title-main_text {
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.reviews-string_title-qw {
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+.reviews-clients {
+    margin-top: 8vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reviews-clients-elem {
+    width: 600px;
+    height: 650px;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviews-clients-elem-text {
+    padding: 50px;
+    padding-bottom: 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.reviews-clients-elem-profile {
+    padding: 50px;
+    display: flex;
+}
+
+.reviews-clients-elem-profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.reviews-clients-elem-profile-name_rate {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-clients-elem-profile-name_rate-name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.reviews-clients-elem-profile-name_rate-rate {
+    margin-top: 1vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1330px) {
+    .reviews-clients {
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-top: 8vw;
+    }
+
+    .reviews-clients-elem {
+        align-self: flex-start;
+    }
+
+    .reviews-clients-elem:last-child {
+        align-self: flex-end;
+        margin-top: 8vw;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .reviews-clients {
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-top: 8vw;
+    }
+
+    .reviews-clients-elem {
+        align-self: center;
+    }
+
+    .reviews-clients-elem:last-child {
+        align-self: center;
+        margin-top: 8vw;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .reviews {
+        margin-top: 24vw;
+    }
+    
+    .reviews-string_title {
+        width: 100%;
+        height: var(--heightElem);
+        background-color: #3D3D3D;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .reviews-string_title-main_text {
+        font-weight: bold;
+        font-size: 2.5vw;
+    }
+    
+    .reviews-string_title-qw {
+        font-size: 1.25vw;
+        font-weight: 400;
+    }
+    
+    .reviews-clients {
+        margin-top: 8vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .reviews-clients-elem {
+        width: 90%;
+        height: 110vw;
+        background-color: #f8f8f8;
+        border-radius: 20px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .reviews-clients-elem-text {
+        padding: 8.5vw;
+        padding-bottom: 0;
+        text-align: justify;
+        font-size: 3.05vw;
+    }
+    
+    .reviews-clients-elem-profile {
+        padding: 8.5vw;
+        display: flex;
+    }
+    
+    .reviews-clients-elem-profile-img {
+        width: 29.5%;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+    .reviews-clients-elem-profile-name_rate {
+        padding-left: 2.5vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .reviews-clients-elem-profile-name_rate-name {
+        font-size: 3.5vw;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    .reviews-clients-elem-profile-name_rate-rate {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .reviews-clients-elem-profile-name_rate-rate-star {
+        width: 15%;
+        height: auto;
+    }
+}

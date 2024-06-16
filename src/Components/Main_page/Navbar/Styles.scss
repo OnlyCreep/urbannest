@@ -1,0 +1,91 @@
+.navbar {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 40px;
+    flex-grow: 0.1;
+}
+
+.navbar-logo-part_1 {
+    color: #FFB800;
+    font-weight: 700;
+}
+
+.navbar-logo-part_2 {
+    color: #FF5C00;
+    font-weight: 600;
+}
+
+.navbar-opps {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.navbar-sign_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0.2;
+    margin-left: 100px;
+}
+
+.navbar-sign_buttons-reg {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-sign_buttons-sign {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF5C00;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 5px #FF5C00;
+}
+
+.navbar-burger_menu {
+    width: 45px;
+}
+
+@media screen and (min-width: 1231px) {
+    .navbar-burger_menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar-opps {
+        display: none;
+    }
+
+    .navbar-sign_buttons {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-logo {
+        font-size: 32px;
+    }
+
+    .navbar-burger_menu {
+        width: 40px;
+    }
+}

@@ -1,0 +1,33 @@
+.MainPage_header {
+  width: 100%;
+  height: 565px;
+  display: block;
+  position: relative;
+}
+
+.MainPage_header::after {
+  content: "";
+  background: url("../../../public/images/Hbuz9TGkS3GWnA6ts_2CgA.webp");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (max-width: 480px) {
+  .MainPage_header {
+    height: 460px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .MainPage_header {
+    height: 320px;
+  }
+}

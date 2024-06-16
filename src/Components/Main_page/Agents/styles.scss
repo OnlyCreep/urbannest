@@ -1,0 +1,160 @@
+.agents_info {
+    margin: auto;
+    margin-top: 200px;
+    width: 90%;
+}
+
+.agents_info-title_warning {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.agents_info-title_answer {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.agents_info-transfer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+
+.agents_info-transfer-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agents_info-transfer-card-icon {
+    width: 150px;
+}
+
+.agents_info-transfer-card-title {
+    margin-top: 30px;
+    color: #FF5C00;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.agents_info-transfer-card-description {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .agents_info-title_warning {
+        font-size: 20px;
+    }
+
+    .agents_info-title_answer {
+        font-size: 24px;
+    }
+
+    .agents_info-transfer-card:last-child {
+        margin-top: 80px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .agents_info {
+        margin-top: 120px;
+    }
+
+    .agents_info-title_answer {
+        margin-top: 20px;
+    }
+
+    .agents_info-transfer {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    .agents_info {
+        margin-top: 60px;
+    }
+
+    .agents_info-title_answer {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .agents_info-transfer {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+
+    .agents_info-transfer-card-icon {
+        width: 120px;
+    }
+
+    .agents_info-transfer-card:nth-child(1) {
+        margin-bottom: 80px;
+    }
+    
+    .agents_info-transfer-card-title {
+        font-size: 24px;
+    }
+
+    .agents_info-transfer-card-description {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .agents_info {
+        margin-top: 40px;
+    }
+
+    .agents_info-title_warning {
+        font-size: 10px;
+    }
+
+    .agents_info-title_answer {
+        margin-top: 10px;
+        font-size: 11px;
+        width: 300px;
+    }
+
+    .agents_info-transfer {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+
+    .agents_info-transfer-card-icon {
+        width: 80px;
+    }
+
+    .agents_info-transfer-card:nth-child(1) {
+        margin-bottom: 60px;
+    }
+    
+    .agents_info-transfer-card-title {
+        font-size: 20px;
+    }
+
+    .agents_info-transfer-card-description {
+        font-size: 14px;
+        width: 200px;
+    }
+
+    .agents_info-transfer-card:last-child {
+        margin-top: 60px;
+    }
+
+}

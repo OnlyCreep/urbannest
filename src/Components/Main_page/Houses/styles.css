@@ -1,0 +1,290 @@
+@charset "UTF-8";
+.houses_info {
+  width: 80%;
+  margin: auto;
+  margin-top: 180px;
+}
+
+.houses_info-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.houses_info-title-honored {
+  color: #ff5c00;
+}
+
+.houses_info-content {
+  margin-top: 120px;
+}
+
+.houses_info-content-main_card-img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.houses_info-content-main_card {
+  display: flex;
+}
+
+.houses_info-content-main_card-info {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.houses_info-content-main_card-info-name {
+  color: #ff5c00;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.houses_info-content-main_card-info-address {
+  font-size: 20px;
+  font-weight: 400;
+  color: #737373;
+}
+
+.houses_info-content-main_card-info-price {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.houses_info-content-main_card-info-description {
+  text-align: justify;
+  color: #232323;
+  visibility: hidden;
+}
+
+.houses_info-content-main_card-info-description::after {
+  visibility: visible;
+  content: "Поселок Солнечная поляна. На участке расположены два дома избревна ручной рубки. Бревно 30 см. Нижний слой лиственница, всёостальное кедр. Основной дом. На первом этаже просторная прихожая,гостинная с камином, кухня, спальня и туалет с душем. Выход набольшую террасу из кухни. Полы с подогревом. Из прихожей вход вгараж. Над гаражом расположен чердак: удобное дополнительное местодля хранения. На втором этаже спальня с гардеробной и санузел. Гостевой...";
+}
+
+.houses_info-content-seconds_cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.houses_info-content-seconds_cards-elem {
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.houses_info-content-seconds_cards-elem-image {
+  width: 250px;
+  border-radius: 5px;
+}
+
+.houses_info-content-seconds_cards-elem-info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.houses_info-content-seconds_cards-elem-info-name {
+  color: #ff5c00;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.houses_info-content-seconds_cards-elem-info-address {
+  font-size: 20px;
+  color: #737373;
+}
+
+.houses_info-content-seconds_cards-elem-info-price {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+  .houses_info-content-main_card-img {
+    width: 400px;
+    height: 400px;
+  }
+  .houses_info-content-seconds_cards-elem-image {
+    width: 150px;
+    height: 150px;
+  }
+  .houses_info-title {
+    font-size: 36px;
+  }
+  .houses_info-content-main_card-info-name {
+    font-size: 24px;
+  }
+  .houses_info-content-main_card-info-address {
+    font-size: 16px;
+  }
+  .houses_info-content-main_card-info-price {
+    font-size: 24px;
+  }
+  .houses_info-content-main_card-info-description {
+    font-size: 14px;
+  }
+  .houses_info-content-seconds_cards-elem-info-name {
+    font-size: 20px;
+  }
+  .houses_info-content-seconds_cards-elem-info-address {
+    font-size: 14px;
+  }
+  .houses_info-content-seconds_cards-elem-info-price {
+    font-size: 20px;
+  }
+  .houses_info {
+    margin-top: 140px;
+  }
+  .houses_info-content {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .houses_info-content-main_card-img {
+    width: 300px;
+    height: 300px;
+  }
+  .houses_info-content-seconds_cards-elem-image {
+    width: 100px;
+    height: 100px;
+  }
+  .houses_info-title {
+    font-size: 24px;
+  }
+  .houses_info-content-main_card-info-description::after {
+    content: "Поселок Солнечная поляна. На участке расположены два дома из бревна ручной рубки. Бревно 30 см. Нижний слой лиственница, всё остальное кедр. Основной дом. На первом этаже просторная прихожая, гостинная с камином, кухня, спальня и туалет...";
+  }
+  .houses_info-content-main_card-info-name {
+    font-size: 24px;
+  }
+  .houses_info-content-main_card-info-address {
+    font-size: 14px;
+  }
+  .houses_info-content-main_card-info-price {
+    font-size: 20px;
+  }
+  .houses_info-content-main_card-info-description {
+    font-size: 12px;
+  }
+  .houses_info-content-seconds_cards-elem-info-name {
+    font-size: 16px;
+  }
+  .houses_info-content-seconds_cards-elem-info-address {
+    font-size: 10px;
+  }
+  .houses_info-content-seconds_cards-elem-info-price {
+    font-size: 16px;
+  }
+  .houses_info {
+    margin-top: 120px;
+  }
+  .houses_info-content {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .houses_info-content-main_card-img {
+    width: 150px;
+    height: 150px;
+  }
+  .houses_info-content-main_card-info {
+    padding-left: 10px;
+  }
+  .houses_info-content-seconds_cards-elem-info {
+    margin-left: 10px;
+  }
+  .houses_info-content-seconds_cards-elem-image {
+    width: 100px;
+    height: 100px;
+  }
+  .houses_info-content-seconds_cards {
+    flex-wrap: wrap;
+  }
+  .houses_info-content-seconds_cards {
+    margin-top: 20px;
+  }
+  .houses_info-content-seconds_cards-elem {
+    margin-bottom: 20px;
+  }
+  .houses_info-title {
+    font-size: 16px;
+  }
+  .houses_info-content-main_card-info-description::after {
+    content: "Поселок Солнечная поляна. На участке расположены два дома из бревна ручной рубки. Бревно 30 см. Нижний слой лиственница...";
+  }
+  .houses_info-content-main_card-info-name {
+    font-size: 18px;
+  }
+  .houses_info-content-main_card-info-address {
+    font-size: 10px;
+  }
+  .houses_info-content-main_card-info-price {
+    font-size: 14px;
+  }
+  .houses_info-content-main_card-info-description {
+    font-size: 10px;
+  }
+  .houses_info {
+    margin-top: 100px;
+  }
+  .houses_info-content {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .houses_info {
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .houses_info-content-main_card-img {
+    width: 120px;
+    height: 120px;
+  }
+  .houses_info-content-seconds_cards-elem-image {
+    width: 80px;
+    height: 80px;
+  }
+  .houses_info-title {
+    font-size: 12px;
+  }
+  .houses_info-content-main_card-info-name {
+    font-size: 16px;
+  }
+  .houses_info-content-main_card-info-address {
+    font-size: 8px;
+  }
+  .houses_info-content-main_card-info-price {
+    font-size: 12px;
+  }
+  .houses_info-content-main_card-info-description {
+    font-size: 8px;
+  }
+  .houses_info-content-seconds_cards-elem-info-name {
+    font-size: 14px;
+  }
+  .houses_info-content-seconds_cards-elem-info-address {
+    font-size: 8px;
+  }
+  .houses_info-content-seconds_cards-elem-info-price {
+    font-size: 12px;
+  }
+  .houses_info-content-main_card-info-description::after {
+    content: "Поселок Солнечная поляна. На участке расположены два дома из бревна ручной рубки...";
+  }
+  .houses_info {
+    margin-top: 40px;
+  }
+  .houses_info-content {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .houses_info {
+    margin-top: 80px;
+  }
+}/*# sourceMappingURL=styles.css.map */

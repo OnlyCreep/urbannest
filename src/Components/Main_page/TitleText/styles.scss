@@ -1,0 +1,154 @@
+.title_info {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.title_info-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title_info-text {
+    font-size: 40px;
+    font-weight: bold;
+    width: 750px;
+    margin-top: 30px;
+}
+
+.title_info-text-honored {
+    color: #FF5C00;
+}
+
+.title_info-buttons {
+    margin-top: 40px;
+    display: flex;
+}
+
+.title_info-buttons-butt-icon {
+    width: 25px;
+    margin-left: 10px;
+}
+
+.title_info-buttons-butt {
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+}
+
+.title_info-buttons-butt.cat {
+    background-color: #FF5C00;
+    margin-right: 50px;
+}
+
+.title_info-buttons-butt.more {
+    background-color: black;
+}
+
+.title_info-buttons-butt:hover {
+    transform: scale(1.05);
+}
+
+.title_info-buttons-butt:active {
+    transform: scale(1);
+}
+
+@media screen and (max-width: 1024px) {
+    .title_info-title {
+        font-size: 16px;
+    }
+
+    .title_info-text {
+        font-size: 32px;
+        width: 65vh;
+    }
+
+    .title_info-buttons-butt {
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .title_info-buttons-butt-icon {
+        width: 20px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title_info-text {
+        font-size: 24px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title_info-title {
+        font-size: 14px;
+    }
+
+    .title_info-text {
+        margin-top: 10px;
+        font-size: 24px;
+        width: 30vh;
+    }
+
+    .title_info-buttons-butt {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .title_info-buttons-butt-icon {
+        width: 15px;
+        margin-left: 5px;
+    }
+
+    .title_info-buttons-butt.cat {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .title_info {
+        margin-top: 50px;
+    }
+
+    .title_info-title {
+        font-size: 10px;
+        width: 280px;
+    }
+
+    .title_info-text {
+        margin-top: 20px;
+        font-size: 16px;
+        width: 250px;
+    }
+
+    .title_info-buttons {
+        margin-top: 30px;
+    }
+
+    .title_info-buttons-butt {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .title_info-buttons-butt-icon {
+        width: 10px;
+        margin-left: 2px;
+    }
+
+    .title_info-buttons-butt.cat {
+        margin-right: 15px;
+    }
+}
