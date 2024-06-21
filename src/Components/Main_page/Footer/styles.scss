@@ -85,6 +85,7 @@ footer {
     padding: 2px 10px;
     transition-property: transform, font-size;
     transition-duration: 300ms;
+    cursor: text;
 }
 
 .footer-elem-column-sub_form-button {
@@ -103,10 +104,12 @@ footer {
 .footer-elem-column-sub_form-email:focus ~ .footer-elem-column-sub_form-email_label {
     transform: translateY(-30px);
     font-size: 20px;
+    cursor: default;
 }
 .footer-elem-column-sub_form-email_label.active {
     transform: translateY(-30px);
     font-size: 20px;
+    cursor: default;
 }
 
 .footer-elem-column-social-title {

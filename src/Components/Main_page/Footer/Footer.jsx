@@ -33,7 +33,7 @@ export default function Footer() {
                 <input
                   type="text"
                   className="footer-elem-column-sub_form-email"
-                  name="email"
+                  id="email"
                   autoComplete="none"
                   onChange={(e) => {
                     if (e.target.value) setEmpty(true);
